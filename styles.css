@@ -17,7 +17,9 @@
 .verdana { font-family: Verdana; color: black;}
 
 body {
-    background-color: white; }
+    background-color: white; 
+    top: 10;
+}
 
 .button {
         background-color: #4CAF50; 
@@ -33,3 +35,9 @@ body {
 img {
         image-orientation: from-image;
     }
+
+.navbar{
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
