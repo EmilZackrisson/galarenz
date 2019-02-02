@@ -16,15 +16,16 @@ margin-bottom: 40px;
 div.container{
 width: 900px;
 height: 610px;
+
 margin:35px auto;
-font-family: 'Raleway', sans-serif;
+font-family: Verdana; color: black;;
 }
 div.main{
 width: 300px;
 padding: 10px 50px 25px;
 border: 2px solid gray;
 border-radius: 10px;
-font-family: raleway;
+font-family: Verdana; color: black;;
 float:left;
 margin-top:50px;
 }

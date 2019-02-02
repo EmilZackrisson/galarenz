@@ -41,3 +41,7 @@ img {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
+
+.topnav-right {
+    float: right;
+  }
