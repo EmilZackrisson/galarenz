@@ -5,8 +5,12 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 //FUCK YOU
 if ( username == "admin" && password == "adminadmin"){//FUCK YOU//FUCK YOU//FUCK YOU//FUCK YOU//FUCK YOU//FUCK YOU//FUCK YOU
-window.location = "admin.html"; // Redirecting to other page.
-return false;
+    window.location = "admin.html"; // Redirecting to other page.
+    return false;
+}
+else if ( username == "tjo" && password == "tjo") {
+    window.location = "admin.html"; // Redirecting to other page.
+    return false;  
 }
 else{
 attempt --;// Decrementing by one.
