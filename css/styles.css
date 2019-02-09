@@ -46,6 +46,14 @@ img {
     float: right;
   }
 
+.navbar-nav {
+    float: right;
+  }
+
+.nav-link {
+    float: right;
+  }
+
 .copyright {
     font-size: 10px;
 }
