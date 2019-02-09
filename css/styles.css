@@ -1,59 +1,99 @@
-.video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
+/* CSS Document */
+
+{
+	margin: 0;
+	padding: 0;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+body
+{
+	font-family: 'Roboto', sans-serif;
 }
 
-.verdana { font-family: Verdana; color: black;}
-
-body {
-    background-color: white; 
-    padding-top:2%;
+#navbar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 
-.button {
-        background-color: #4CAF50; 
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-    }
-
-img {
-        image-orientation: from-image;
-    }
-
-.navbar{
-    position: fixed;
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+.navbar
+{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	padding: 0 !important;
 }
 
-.topnav-right {
-    float: right;
-  }
+.navbar-nav li
+{
+	padding: 0 10px;
+}
 
-.navbar-nav {
-    float: right;
-  }
+.navbar-nav li a
+{
+	color: white !important;
+	font-weight: 600;
+}
 
-.nav-link {
-    float: right;
-  }
+.fa-bars
+{
+	color: white;
+	font-size: 30px !important;
+}
 
-.copyright {
-    font-size: 10px;
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+.galarenz-logo
+{
+	padding-left: 20px;
+	height: 20px;
+}
+
+/*--------------banner----------------------*/
+
+#banner
+{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	color: white;
+	padding-top: 5%;
+}
+
+.header
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+.wave-img
+{
+	width: 100%;
+	
+}
+
+.play-button
+{
+	width: 45px;
+	margin: 20px;
+}
+
+.flamecatlogo
+{
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.youtube-logo
+{
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.youtube
+{
+	
 }
