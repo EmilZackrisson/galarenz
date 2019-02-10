@@ -92,3 +92,25 @@ body
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+.login-form
+{
+	padding-top: 20%;
+}
+
+.login-button {
+  background-color: mediumpurple; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.downloads
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
