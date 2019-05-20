@@ -1,4 +1,4 @@
-/* CSS Document */
+/* CSS Document*/ 
 
 {
 	margin: 0;
@@ -8,6 +8,7 @@
 body
 {
 	font-family: 'Roboto', sans-serif;
+
 }
 
 #navbar
@@ -19,7 +20,7 @@ body
 
 .navbar
 {
-	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	background-image: linear-gradient(to right, #0E00E6,#0018BF);
 	padding: 0 !important;
 }
 
@@ -55,7 +56,7 @@ body
 
 #banner
 {
-	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	background-image: linear-gradient(to right, #0E00E6,#0018BF);
 	color: white;
 	padding-top: 5%;
 }

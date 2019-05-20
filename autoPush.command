@@ -1,0 +1,1 @@
+sh autoCommitPush.sh
